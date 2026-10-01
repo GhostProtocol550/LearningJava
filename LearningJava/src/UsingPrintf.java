@@ -34,7 +34,7 @@ public class UsingPrintf
 //
 //        System.out.printf("%s is %d years old.\n", name, age);
 
-        
+
         // [width]
         // 0 = zero padding
         // number = right justified padding
