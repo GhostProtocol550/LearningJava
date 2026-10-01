@@ -1,6 +1,7 @@
+// thanks to Bro Code on YouTube for the tutorials :D
 import java.util.Scanner;
 
-public class Main
+public class MadLibs
 {
     public static void main(String[] args)
     {

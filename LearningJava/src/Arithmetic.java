@@ -1,3 +1,5 @@
+// thanks to Bro Code on YouTube for the tutorials :D
+
 public class Arithmetic
 {
     public static void main(String[] args)

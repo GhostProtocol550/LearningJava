@@ -1,3 +1,5 @@
+// thanks to Bro Code on YouTube for the tutorials :D
+
 import java.util.Random;
 import java.util.Scanner;
 

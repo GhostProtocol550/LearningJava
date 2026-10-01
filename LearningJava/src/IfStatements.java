@@ -1,3 +1,5 @@
+// thanks to Bro Code on YouTube for the tutorials :D
+
 import javax.swing.*;
 import java.util.Scanner;
 
