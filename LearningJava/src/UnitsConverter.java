@@ -42,7 +42,7 @@ public class UnitsConverter
 
         while (choice <= 0 || choice >= 5) // checks if the user enters anything other than 1 or 2
         {
-            System.out.println("\nThat is that a valid input. Pick again.");
+            System.out.println("\nThat is not a valid input. Pick again.");
             System.out.println("1: Convert from lb to kg");
             System.out.println("2: Convert from kg to lb");
             System.out.println("3: Convert from mL to L");
