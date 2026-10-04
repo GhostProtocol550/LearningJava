@@ -29,35 +29,35 @@ public class TempConverter
             System.out.print("Enter the temperature: ");
             temp = scanner.nextDouble();
             newTemp = (temp * 9 / 5) + 32;
-            System.out.printf("\nNew temperature: %.3f°F", newTemp);
+            System.out.printf("\nNew temperature: %.2f°F", newTemp);
         }
         else if (unit.equals("C"))
         {
             System.out.print("Enter the temperature: ");
             temp = scanner.nextDouble();
             newTemp = (temp - 32) * 5 / 9;
-            System.out.printf("\nNew temperature: %.3f°C", newTemp);
+            System.out.printf("\nNew temperature: %.2f°C", newTemp);
         }
         else if (unit.equals("K"))
         {
             System.out.print("Enter the temperature: ");
             temp = scanner.nextDouble();
             newTemp = temp + 273.15;
-            System.out.printf("\nNew temperature: %.3fK", newTemp);
+            System.out.printf("\nNew temperature: %.2fK", newTemp);
         }
         else if (unit.equals("K-C"))
         {
             System.out.print("Enter the temperature: ");
             temp = scanner.nextDouble();
             newTemp = temp - 273.15;
-            System.out.printf("\nNew temperature: %.3f°C", newTemp);
+            System.out.printf("\nNew temperature: %.2f°C", newTemp);
         }
         else if (unit.equals("F-K"))
         {
             System.out.print("Enter the temperature: ");
             temp = scanner.nextDouble();
             newTemp = (temp - 32) * 5/9 + 273.15;
-            System.out.printf("\nNew temperature: %.3fK", newTemp);
+            System.out.printf("\nNew temperature: %.2fK", newTemp);
         }
         scanner.close();
     }
