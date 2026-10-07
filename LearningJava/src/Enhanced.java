@@ -12,12 +12,13 @@ public class Enhanced
         String day = scanner.nextLine();
 
 
-        switch(day) 
+        switch(day)
         {
             case "Monday", "Tuesday", "Wednesday", "Thursday", "Friday" ->
                     System.out.println("It is a weekday");
             case "Saturday", "Sunday" -> System.out.println("It is a weekend");
             default -> System.out.println(day + " is not a day");
         }
+        scanner.close();
     }
 }
