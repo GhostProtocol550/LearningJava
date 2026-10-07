@@ -10,7 +10,7 @@ public class MathFunctions
 //        System.out.println(Math.E); // gives the constant euler's number
 
 //        double result;
-//        result = Math.pow(2,3); x to the nth power
+//        result = Math.pow(x,n); x to the nth power
 //        result = Math.abs(-5); absolute value
 //        result = Math.sqrt(10); square root
 //        result = Math.round(3.14); rounds to the nearest whole number
